@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OLLHpiQA)
-- NOM : 
-- PRÉNOM :
-- URL du site :
+- NOM : Brayet-Conche
+- PRÉNOM : Natan
+- URL du site : https://gentle-otter-f349d8.netlify.app
 - URL FIGMA :
 
 # Structure de départ pour le projet individuel.
