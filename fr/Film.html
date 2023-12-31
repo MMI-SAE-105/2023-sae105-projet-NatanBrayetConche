@@ -11,16 +11,16 @@
 
     <link rel="stylesheet" href="./src/css/vendors/style.css" />
 
-    <link rel="icon" href="public/img/Logo I am legend 2.png" />
+    <link rel="icon" href="/public/img/Logo I am legend 2.png" />
 </head>
 
 <body x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen}">
 
     <header>
         <a href="index.html">
-            <img src="public/img/Logo I am legend 2.png" alt="Logo i am legend">
+            <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
         </a>
-        <img src="public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
+        <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
         <nav x-show="menuIsOpen">
             <ul>
                 <li><a href="/fr/Citation.html">La citation: "Je m'appelle Robert Neville, je suis un survivant...</a></li>
@@ -32,13 +32,82 @@
         </nav>
     </header>
     <main x-show="!menuIsOpen">
-        <img src="" alt="page film 1">
+        <section class="/">
+            <div class="/">
+                <img src="/public/img/Page film 1.png" alt="film 1">
+            </div>
+            <h2>"I Am Legend" : Une Épopée de Survie dans un Monde Dévasté</h2>
+            <div>
+                <h4>Apocalypse et Transformation : L'Univers Post-Apocalyptique</h4>
+                <p>
+                    Le film "I Am Legend", réalisé par Francis Lawrence, plonge les spectateurs dans un univers post-apocalyptique
+                    fascinant. L'histoire se déroule dans une ville ruinée par un désastre inexplicable, laissant pour seul survivant, le
+                    protagoniste, interprété par Will Smith.
+                </p>
+            </div>
+            <div>
+                <h4>Robert Neville : Dernier Pilier d'Espoir dans la Désolation</h4>
+                <p>
+                    L'apocalypse qui sert de toile de fond à cette œuvre cinématographique est causée par un virus terrifiant qui transforme
+                    la population en créatures monstrueuses, souvent qualifiées de zombies. Ces êtres dépourvus d'humanité errent dans les
+                    rues en quête de chair fraîche, instaurant ainsi une atmosphère de terreur et de ruine.
+                </p>
+            </div>
+            <div>
+                <h4>Seul face a l'adversitude d'un nouveau monde</h4>
+                <p>
+                    Le personnage principal, Robert Neville, incarne la dernière lueur d'espoir dans ce monde désolé. Il tente de survivre
+                    en maintenant un semblant de routine quotidienne, cherchant des ressources dans les décombres de la ville dévastée.
+                    Cette quête incessante pour la survie s'accompagne d'un sentiment constant de solitude, renforcé par l'absence de
+                    contact humain
+                </p>
+                <img src="/public/img/Page film 2.png" alt="film 2">
+            </div>
+            <div>
+                <h4>Chasses Nocturnes et Effets Spéciaux Époustouflants</h4>
+                <p>
+                    "I Am Legend" nous amène à nous interroger sur la nature humaine et sur la manière dont nous réagirions dans un tel
+                    scénario apocalyptique. Serions-nous capables de maintenir notre humanité face à l'adversité? Cette question cruciale
+                    résonne tout au long du film, créant une expérience cinématographique immersive et captivante.
+                </p>
+            </div>
+            <div>
+                <h4>Solitude et Quête de Sens : Survivre au Milieu de l'Isolement</h4>
+                <p>
+                    L'un des éléments clés de "I Am Legend" réside dans sa capacité à créer une tension palpable. Les scènes de chasse
+                    nocturnes, où Neville affronte les hordes de créatures, font battre nos cœurs à tout rompre. Les effets spéciaux
+                    époustouflants donnent vie à ces zombies effrayants, ajoutant une dimension de réalisme saisissante à l'ensemble. Un
+                    moment emblématique du film survient lorsque Robert Neville se présente ainsi : « Je m’appelle Robert Neville, je suis
+                    un survivant, je vis à New York. ». Cette phrase, chargée de solennité et de détermination, devient le mantra de
+                    Neville, symbole de sa résilience dans ce monde en ruine.
+                </p>
+            </div>
+            <img src="/public/img/Page film 3.png" alt="film 3">
+            <div>
+                <h4>La Détermination d'un Survivant Inspirant</h4>
+                <p>
+                    Pourtant, au-delà de l'action frénétique, le film offre une réflexion profonde sur la survie et l'isolement. Neville,
+                    seul dans ce monde apocalyptique, cherche désespérément un remède, une lueur d'espoir pour l'humanité. Son combat
+                    acharné et sa détermination sont les piliers de cette quête, faisant de lui un héros tragique et inspirant.
+                </p>
+            </div>
+            <div>
+                <h4>Une Exploration Émotionnelle de la Survie et de l'Action</h4>
+                <p>
+                    En conclusion, "I Am Legend" est bien plus qu'un simple film apocalyptique. C'est une exploration émotionnelle et
+                    visuelle de la survie dans un monde au bord du précipice. La performance remarquable de Will Smith et la réalisation
+                    magistrale de Francis Lawrence en font une œuvre incontournable pour tout amateur de science-fiction et d'action.
+                    Préparez-vous à être transporté dans un univers où la frontière entre l'humanité et le désastre est plus mince que
+                    jamais.
+                </p>
+            </div>
+        </section>
     </main>
     <footer x-show="!menuIsOpen">
         <div class="/">
             <div class="/">
                 <h2>Culture d'I am legend</h2>
-                <img src="public/img/Line 21.png" alt="Séparation">
+                <img src="/public/img/Line 21.png" alt="Séparation">
                 <ul>
                     <li><a href="A propos.html">A propos de moi</a></li>
                     <li><a href="Contact.html">Me contacter</a></li>
@@ -47,16 +116,16 @@
                 </ul>
             </div>
     
-            <img src="src/icone/Line 21.png" alt="Séparation">
+            <img src="/public/img/Line 21.png" alt="Séparation">
     
             <div class="footer__section">
                 <h3>Me suivre</h3>
-                <img src="public/img/instagram.png" alt="Instagram">
-                <img src="public/img/twitter.png" alt="Twitter">
+                <img src="/public/img/instagram.png" alt="Instagram">
+                <img src="/public/img/twitter.png" alt="Twitter">
             </div>
             <div class="footer_logo">
                 <a href="index.html">
-                    <img src="public/img/Logo I am legend 2.png" alt="Logo I am legend">
+                    <img src="/public/img/Logo I am legend 2.png" alt="Logo I am legend">
                 </a>
             </div>
         </div>
