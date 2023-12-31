@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+    <link rel="stylesheet" href="./src/css/vendors/style.css" />
+
+    <link rel="icon" href="/public/img/Logo I am legend 2.png" />
+</head>
+
+<body x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen}">
+
+    <header>
+        <a href="index.html">
+            <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
+        </a>
+        <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
+        <nav x-show="menuIsOpen">
+            <ul>
+                <li><a href="/fr/Citation.html">La citation: "Je m'appelle Robert Neville, je suis un survivant...</a>
+                </li>
+                <li><a href="/fr/Film.html">Le film: I am Legend</a></li>
+                <li><a href="/fr/Réalisateur.html">Réalisateur: Francis Lawrence</a></li>
+                <li><a href="/fr/Musique.html">La musique: I an legende Soundtrack-main theme</a></li>
+                <li><a href="/fr/Livre.html">Le livre: je suis une légende</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main x-show="!menuIsOpen">
+        <section class="/">
+            <div class="/">
+                <img src="/public/img/Page livre 1.png" alt="livre 1">
+            </div>
+            <h2>"I Am Legend" : Un Voyage au Cœur de l'Apocalypse Vampirique</h2>
+            <div>
+                <h4>L'Odyssée Solitaire de Robert Neville</h4>
+                <p>
+                    Plongez dans un univers post-apocalyptique où les vampires règnent en maîtres, et où la solitude devient le compagnon
+                    quotidien de Robert Neville, le protagoniste de "I Am Legend". Ce roman captivant, écrit par Richard Matheson, nous
+                    transporte dans un monde désolé, dévasté par un cataclysme mystérieux qui a transformé la majeure partie de la
+                    population en créatures nocturnes assoiffées de sang.
+                </p>
+                <img src="/public/img/Page livre 2.png" alt="livre 2">
+            </div>
+            <div>
+                <h4>Le Désastre et la Solitude</h4>
+                <p>
+                    Au cœur de cette œuvre, le désastre est omniprésent. Une épidémie, mystérieuse et mortelle, a balayé la civilisation, ne
+                    laissant derrière elle que des ruines et une poignée de survivants. Robert Neville se retrouve seul, contraint de lutter
+                    pour sa survie dans un monde qui n'est plus que l'ombre de ce qu'il était. Chaque jour est une bataille contre
+                    l'isolement, chaque nuit est une épreuve face aux vampires qui hantent les ténèbres.
+                </p>
+            </div>
+            <div>
+                <h4>L'Apocalypse Vampirique</h4>
+                <p>
+                    Ce qui distingue "I Am Legend", c'est l'approche originale de l'apocalypse. Plutôt que de suivre le schéma classique des
+                    zombies, Matheson explore le mythe des vampires. Ces créatures immortelles, repoussées par la lumière du jour, sont
+                    devenues les maîtres de la nuit, régnant en tyrans sur les rues abandonnées de la ville. Le suspense est palpable à
+                    chaque page, alors que Neville tente de percer les mystères de cette nouvelle réalité.
+                </p> 
+                <img src="/public/img/Page livre 3.png" alt="livre 3">
+            </div>
+            <div>
+                <h4>La Quête de Compréhension</h4>
+                <p>
+                    "I Am Legend" nous amène à nous interroger sur la nature humaine et sur la manière dont nous
+                    réagirions dans un tel
+                    scénario apocalyptique. Serions-nous capables de maintenir notre humanité face à l'adversité? Cette
+                    question cruciale
+                    résonne tout au long du film, créant une expérience cinématographique immersive et captivante.
+                </p>
+            </div>
+            <div>
+                <h4>L'Adaptation Cinématographique</h4>
+                <p>
+                    "I Am Legend" a également connu une adaptation cinématographique sorti en 2007 qui a marqué les esprits. Bien que le
+                    film partage l'univers apocalyptique et les éléments clés de l'histoire, il présente certaines variations narratives
+                    pour créer une expérience cinématographique unique. Les scènes d'action sont éblouissantes, et l'atmosphère
+                    post-apocalyptique est rendue de manière saisissante à l'écran. Cependant, les amateurs du livre pourraient noter
+                    quelques différences dans le dénouement, apportant ainsi une perspective intéressante pour ceux qui souhaitent comparer
+                    les deux médias. Le film "I Am Legend" reste une adaptation captivante, offrant une vision alternative de l'histoire
+                    originale et s'ajoutant à la richesse de cet univers apocalyptique.
+
+                </p>
+            </div>
+            <img src="/public/img/Page livre 4.png" alt="livre 4">
+            <div>
+                <h4>Éclat Sombre : Le Voyage Solitaire de Robert Neville</h4>
+                <p>
+                    "I Am Legend" est bien plus qu'une simple histoire de vampires et de désastre. C'est une exploration poignante de la
+                    résilience humaine face à l'adversité, une méditation sur la nature de l'isolement et de la survie. Richard Matheson a
+                    créé un chef-d'œuvre intemporel qui continue d'inspirer et de captiver les lecteurs à travers les générations.
+                    Plongez-vous dans ce récit sombre et envoûtant, et découvrez par vous-même pourquoi "I Am Legend" demeure une référence
+                    incontournable de la littérature apocalyptique.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer x-show="!menuIsOpen">
+        <div class="/">
+            <div class="/">
+                <h2>Culture d'I am legend</h2>
+                <img src="/public/img/Line 21.png" alt="Séparation">
+                <ul>
+                    <li><a href="A propos.html">A propos de moi</a></li>
+                    <li><a href="Contact.html">Me contacter</a></li>
+                    <li><a href="Autre projet.html">Autres Projets</a></li>
+                    <li><a href="Glossaire.html">Glossaire</a></li>
+                </ul>
+            </div>
+
+            <img src="/public/img/Line 21.png" alt="Séparation">
+
+            <div class="footer__section">
+                <h3>Me suivre</h3>
+                <img src="/public/img/instagram.png" alt="Instagram">
+                <img src="/public/img/twitter.png" alt="Twitter">
+            </div>
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="/public/img/Logo I am legend 2.png" alt="Logo I am legend">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
