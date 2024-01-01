@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+    <link rel="stylesheet" href="./src/css/vendors/style.css" />
+
+    <link rel="icon" href="../public/img/Logo I am legend 2.png" />
+</head>
+
+<body x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen}">
+
+    <header>
+        <a href="index.html">
+            <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
+        </a>
+        <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
+        <nav x-show="menuIsOpen">
+            <ul>
+                <li><a href="/fr/Citation.html">La citation: "Je m'appelle Robert Neville, je suis un survivant...</a>
+                </li>
+                <li><a href="/fr/Film.html">Le film: I am Legend</a></li>
+                <li><a href="/fr/Réalisateur.html">Réalisateur: Francis Lawrence</a></li>
+                <li><a href="/fr/Musique.html">La musique: I an legende Soundtrack-main theme</a></li>
+                <li><a href="/fr/Livre.html">Le livre: je suis une légende</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main x-show="!menuIsOpen">
+        <section class="/">
+            <div class="/">
+                <img src="/public/img/Capture d’écran 2023-12-31 à 19.02.57.png" alt="musique 1">
+            </div>
+            <h2>Une Odyssée à Travers l'Apocalypse</h2>
+            <div>
+                <h4>Le Pouvoir du Thème Musical dans 'I Am Legend'</h4>
+                <p>
+                    Dans le tumulte des désastres apocalyptiques, la musique se révèle souvent être une compagne silencieuse, mais
+                    puissante, de la solitude. L'une de ces mélodies emblématiques est le thème principal de la bande sonore du film "I Am
+                    Legend". Pour ceux qui sont moins familiers avec cet univers, "I Am Legend" est un film post-apocalyptique où les
+                    derniers survivants de l'humanité luttent contre des créatures vampiriques, laissées en héritage par un désastre
+                    mondial.
+                </p>
+            </div>
+            <div>
+                <h4>Analyse de la Musique</h4>
+                <p>
+                    La musique, composée par James Newton Howard, transcende le simple rôle d'accompagnement et devient un personnage à part
+                    entière de l'histoire. Elle puise sa force dans la capacité à évoquer des émotions profondes et à immerger l'auditeur
+                    dans l'atmosphère oppressante de cet univers dévasté.
+                </p>
+                
+            </div>
+            <div>
+                <img src="/public/img/Page music 2.png" alt="Musique 2">
+                <p>
+                    Le thème débute par des notes graves et lugubres jouées par des cordes, créant ainsi une sensation d'incertitude et de
+                    tension. Ces premières mesures introduisent l'auditeur à l'essence même de l'apocalypse : un monde dépourvu de vie et
+                    plongé dans l'obscurité.
+                </p>
+            </div>
+            <div>
+                <p>
+                    Puis, les cuivres entrent en scène avec une fanfare mélodique, apportant un sentiment d'espoir et de détermination au
+                    milieu de ce chaos. Cette juxtaposition entre l'obscurité et la lumière musicale reflète la lutte acharnée du
+                    protagoniste pour survivre et conserver son humanité dans ce désert post-apocalyptique.
+                </p>
+                <img src="/public/img/Page music 3.png" alt="Musique 3">
+            </div>
+            <div>
+                <p>
+                    Les instruments à vent, avec leur mélodie mélancolique, évoquent la solitude profonde qui habite le personnage
+                    principal. Ils murmurent les échos de sa vie passée, soulignant la perte irréparable causée par l'apocalypse.
+                </p>
+            </div>
+            
+            <div>
+                <p>
+                    L'utilisation subtile du rythme est également remarquable. Les moments de crescendo correspondent souvent à des moments
+                    de tension dans le film, créant ainsi une symbiose parfaite entre l'image et le son. Le rythme régulier et hypnotique
+                    qui sous-tend la mélodie principale reflète la persévérance du protagoniste face à l'adversité.
+                </p>
+            </div>
+            <div>
+                <h4>Le Pouvoir Émotionnel de 'I Am Legend Soundtrack - Main Theme'</h4>
+                <p>
+                    La musique "I Am Legend Soundtrack - Main Theme" est bien plus qu'une simple bande sonore. C'est une expérience
+                    émotionnelle qui amplifie l'impact de l'histoire et la rend mémorable. À travers ses notes, elle nous plonge dans un
+                    monde apocalyptique, nous faisant ressentir la désolation, la solitude et l'espoir qui habitent le personnage principal.
+                    Dans ce tourbillon de chaos, cette mélodie émerge comme un phare dans l'obscurité, rappelant à tous que même dans les
+                    pires moments, il existe toujours une lueur d'espoir. C'est cette capacité à transcender les limites du médium musical
+                    qui fait de cette composition une œuvre d'art incontournable pour tout amateur de musique de film, qu'il soit familier
+                    ou non avec l'univers de "I Am Legend".
+                </p>
+            </div>
+        </section>
+
+    </main>
+    <footer x-show="!menuIsOpen">
+        <div class="/">
+            <div class="/">
+                <h2>Culture d'I am legend</h2>
+                <img src="/public/img/Line 21.png" alt="Séparation">
+                <ul>
+                    <li><a href="A propos.html">A propos de moi</a></li>
+                    <li><a href="Contact.html">Me contacter</a></li>
+                    <li><a href="Autre projet.html">Autres Projets</a></li>
+                    <li><a href="Glossaire.html">Glossaire</a></li>
+                </ul>
+            </div>
+
+            <img src="/public/img/Line 21.png" alt="Séparation">
+
+            <div class="footer__section">
+                <h3>Me suivre</h3>
+                <img src="/public/img/instagram.png" alt="Instagram">
+                <img src="/public/img/twitter.png" alt="Twitter">
+            </div>
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="/public/img/Logo I am legend 2.png" alt="Logo I am legend">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
