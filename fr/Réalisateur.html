@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+    <link rel="stylesheet" href="./src/css/vendors/style.css" />
+
+    <link rel="icon" href="../public/img/Logo I am legend 2.png" />
+</head>
+
+<body x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen}">
+
+    <header>
+        <a href="index.html">
+            <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
+        </a>
+        <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
+        <nav x-show="menuIsOpen">
+            <ul>
+                <li><a href="/fr/Citation.html">La citation: "Je m'appelle Robert Neville, je suis un survivant...</a>
+                </li>
+                <li><a href="/fr/Film.html">Le film: I am Legend</a></li>
+                <li><a href="/fr/Réalisateur.html">Réalisateur: Francis Lawrence</a></li>
+                <li><a href="/fr/Musique.html">La musique: I an legende Soundtrack-main theme</a></li>
+                <li><a href="/fr/Livre.html">Le livre: je suis une légende</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main x-show="!menuIsOpen">
+        <section class="/">
+            <div class="/">
+                <img src="/public/img/Page réal 1.png" alt="Réalisateur 1">
+            </div>
+            <h2>Le Maestro de la Cinématographie Multidimensionnelle</h2>
+            <h4>Parmi plusieurs grand réalisateurs, Francis Lawrence se distingue indéniablement. Né le 26 mars 1971 à Vienne, en
+                Autriche, il a rapidement laissé une empreinte indélébile dans l'industrie cinématographique.</h4>
+            <div> 
+                <h4>L'Héritage des Clips Musicaux</h4>
+                <p>
+                    Francis Lawrence fait ces premiers pas en tant que réalisateur de clips musicaux, collaborant avec des icônes telles que
+                    Beyoncé, Lady Gaga et Britney Spears. Elles ont forgé sa vision distinctive et son sens aiguisé de la narration
+                    visuelle. Cette expérience dans l'univers du clip lui a permis d'affiner une esthétique visuelle unique, qui transparaît
+                    dans chacune de ses œuvres de science-fiction et apocalyptique.
+                </p>
+                <img src="/public/img/Page réal 2.png" alt="Réalisateur 2">
+            </div>
+            <div>
+                <h4>Univers Post-Apocalyptiques Réinventés</h4>
+                <p>
+                    L'un des aspects les plus frappants du travail de Lawrence est sa capacité à créer des univers cinématographiques d'une
+                    immersion totale. Cette maîtrise de la direction artistique et des effets visuels a été particulièrement saluée dans des
+                    œuvres marquantes telles que "Je suis une légende" (2007) et tout l’univers de "Hunger Games". Dans ces créations, il a
+                    su faire naître une vie à couper le souffle à des mondes post-apocalyptiques, mêlant habilement réalisme et fantaisie
+                    pour transporter les spectateurs dans une aventure inoubliable.
+                </p>
+                
+            </div>
+            <div>
+                <h4>Technologie au Service de la Narration</h4>
+                <img src="/public/img/Page réal 3.png" alt="Réalisateur 3">
+                <p>
+                    Je suis particulièrement fasciné par la manière dont Lawrence intègre les technologies de pointe dans son travail. Son
+                    utilisation judicieuse des effets spéciaux, du CGI et d'autres techniques novatrices va bien au-delà du simple aspect
+                    spectaculaire. Chaque élément technologique est soigneusement orchestré pour servir la narration et amplifier
+                    l'expérience cinématographique.
+                </p>
+            </div>
+            <div>
+                <h4>La Puissance des Bandes Sonores Collaboratives</h4>
+                <p>
+                    Un autre élément qui suscite mon intention est sa collaboration étroite avec des compositeurs renommés, à l'instar de
+                    James Newton Howard par exemple. Ensemble, ils ont donné naissance à des bandes sonores mémorables qui transcendent
+                    l'écran pour devenir une composante essentielle de l'émotion et de la dynamique de chaque scène.
+                </p>
+            </div>
+            <div>
+                <h4>Étendre l'Univers Cinématographique</h4>
+                <img src="/public/img/Page réal 4.png" alt="Réalisateur 4">
+                <p>
+                    Enfin, la manière dont Francis Lawrence explore la convergence des médias ne cesse de me fasciner. Son talent à étendre
+                    l'univers de ses films à travers des campagnes de marketing virales, des jeux vidéo et diverses expériences multimédias
+                    crée une expérience immersive qui va bien au-delà de l'écran de cinéma traditionnel.
+                </p>
+            </div>
+            
+            <div>
+                <h4>L'Évolution du Cinéma à Travers Lawrence</h4>
+                <p>
+                    Francis Lawrence incarne véritablement l'essence même de la narration multimédia. Sa capacité à marier technologie,
+                    narration et émotion dans ses films en fait un maestro de la cinématographie multidimensionnelle. Son œuvre représente
+                    pour moi une source inépuisable d'inspiration et une démonstration éclatante de l'impact considérable de la convergence
+                    des médias dans l'univers du cinéma.
+                </p>
+            </div>
+        </section>
+
+    </main>
+    <footer x-show="!menuIsOpen">
+        <div class="/">
+            <div class="/">
+                <h2>Culture d'I am legend</h2>
+                <img src="/public/img/Line 21.png" alt="Séparation">
+                <ul>
+                    <li><a href="A propos.html">A propos de moi</a></li>
+                    <li><a href="Contact.html">Me contacter</a></li>
+                    <li><a href="Autre projet.html">Autres Projets</a></li>
+                    <li><a href="Glossaire.html">Glossaire</a></li>
+                </ul>
+            </div>
+
+            <img src="/public/img/Line 21.png" alt="Séparation">
+
+            <div class="footer__section">
+                <h3>Me suivre</h3>
+                <img src="/public/img/instagram.png" alt="Instagram">
+                <img src="/public/img/twitter.png" alt="Twitter">
+            </div>
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="/public/img/Logo I am legend 2.png" alt="Logo I am legend">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
