@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+    <link rel="stylesheet" href="./src/css/vendors/style.css" />
+
+    <link rel="icon" href="../public/img/Logo I am legend 2.png" />
+</head>
+
+<body x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen}">
+
+    <header>
+        <a href="index.html">
+            <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
+        </a>
+        <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
+        <nav x-show="menuIsOpen">
+            <ul>
+                <li><a href="/fr/Citation.html">The quote: "My name is Robert Neville. I am a survivor...</a>
+                </li>
+                <li><a href="/fr/Film.html">The movie: I am Legend</a></li>
+                <li><a href="/fr/Réalisateur.html">Director: Francis Lawrence</a></li>
+                <li><a href="/fr/Musique.html">The music: I an legende Soundtrack-main theme</a></li>
+                <li><a href="/fr/Livre.html">The book: I am legend</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main x-show="!menuIsOpen">
+        <section>
+            <div>
+                <p>
+                    Let me introduce myself: I'm Natan Brayet-Conche, a first-year MMI student at the Montbéliard IUT. This website is my
+                    very first project, carried out between September and January 2024 as part of my studies.
+                </p>
+            </div>
+            <div>
+                <p>
+                    This project, supervised by Mr Malso, tackles a wide-ranging issue based on a film line. It deals with the film "I am
+                    Legend" through a guideline, the famous quote by Robert Neville: "My name is Robert Neville, I am a survivor, I live in
+                    New York".
+                </p>
+            </div>
+            <div>
+                <p>
+                    The choice to explore "I am Legend" stems from my personal interest in the film, but also from its profound exploration
+                    of themes such as loneliness and human nature. The aim of this project is to immerse the user in the skin of an
+                    apocalypse survivor, for an immersive and introspective experience.
+                </p>
+            </div>
+        </section>
+
+    </main>
+    <footer x-show="!menuIsOpen">
+        <div class="/">
+            <div class="/">
+                <h2>Culture d'I am legend</h2>
+                <img src="/public/img/Line 21.png" alt="Séparation">
+                <ul>
+                    <li><a href="A propos.html">About me</a></li>
+                    <li><a href="Contact.html">contact</a></li>
+                    <li><a href="Autre projet.html">Other project</a></li>
+                    <li><a href="Glossaire.html">Glossary</a></li>
+                </ul>
+            </div>
+
+            <img src="/public/img/Line 21.png" alt="Séparation">
+
+            <div class="footer__section">
+                <h3>Me suivre</h3>
+                <img src="/public/img/instagram.png" alt="Instagram">
+                <img src="/public/img/twitter.png" alt="Twitter">
+            </div>
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="/public/img/Logo I am legend 2.png" alt="Logo I am legend">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
