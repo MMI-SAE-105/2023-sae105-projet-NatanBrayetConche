@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+    <link rel="stylesheet" href="./src/css/vendors/style.css" />
+
+    <link rel="icon" href="../public/img/Logo I am legend 2.png" />
+</head>
+
+<body x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen}">
+
+    <header>
+        <a href="index.html">
+            <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
+        </a>
+        <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
+        <nav x-show="menuIsOpen">
+            <ul>
+                <li><a href="/fr/Citation.html">The quote: "My name is Robert Neville. I am a survivor...</a>
+                </li>
+                <li><a href="/fr/Film.html">The movie: I am Legend</a></li>
+                <li><a href="/fr/Réalisateur.html">Director: Francis Lawrence</a></li>
+                <li><a href="/fr/Musique.html">The music: I an legende Soundtrack-main theme</a></li>
+                <li><a href="/fr/Livre.html">The book: I am legend</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main x-show="!menuIsOpen">
+        <section>
+            <div>
+                <a href="">
+                    <p>vestiges :
+                        <p>Marque, trace laissée par quelque chose qui a été détruit</p>
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>post-apocalyptique :
+                        <p>Ce qui proviens après l'apocalypse</p>
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>Apocalypse :
+                        <p>Catastrophe effrayante qui évoque la fin du monde</p>
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <p>Zombie :
+                        <p>Cadavre animé qui se nourrit de la chair des vivants, dans les récits fantastiques et de science-fiction.</p>
+                    </p>
+                </a>
+            </div>
+        </section>
+
+    </main>
+    <footer x-show="!menuIsOpen">
+        <div class="/">
+            <div class="/">
+                <h2>Culture d'I am legend</h2>
+                <img src="/public/img/Line 21.png" alt="Séparation">
+                <ul>
+                    <li><a href="A propos.html">About me</a></li>
+                    <li><a href="Contact.html">contact</a></li>
+                    <li><a href="Autre projet.html">Other project</a></li>
+                    <li><a href="Glossaire.html">Glossary</a></li>
+                </ul>
+            </div>
+
+            <img src="/public/img/Line 21.png" alt="Séparation">
+
+            <div class="footer__section">
+                <h3>Me suivre</h3>
+                <img src="/public/img/instagram.png" alt="Instagram">
+                <img src="/public/img/twitter.png" alt="Twitter">
+            </div>
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="/public/img/Logo I am legend 2.png" alt="Logo I am legend">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
