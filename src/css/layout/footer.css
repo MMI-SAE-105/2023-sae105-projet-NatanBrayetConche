@@ -1,38 +1,9 @@
-
-/* Style pour le header */
-header {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Style pour le menu */
-.menu {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-}
-
-.menu a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-}
-
-.menu a:hover {
-    color: #777;
-}
-
-/* Style pour le main */
-main {
-    padding: 20px;
-}
-
 /* Style pour le footer */
 footer {
-    background-color: #333;
+    background-color: #0E0D0D;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
 footer h2 {
@@ -44,40 +15,11 @@ footer ul {
     padding: 0;
 }
 
-footer ul li {
-    margin-bottom: 10px;
-}
-
 footer ul li a {
-    color: #fff;
     text-decoration: none;
+    color: #fff;
 }
 
 footer ul li a:hover {
     color: #ccc;
-}
-
-/* Style pour le logo du footer */
-.footer_logo {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.footer_logo img {
-    width: 200px;
-}
-
-/* Style pour les boutons de suivi */
-.footer__section {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.footer__section h3 {
-    margin-bottom: 20px;
-}
-
-.footer__section img {
-    width: 50px;
-    margin: 0 10px;
 }
