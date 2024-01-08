@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mukta bold';
+    src: url(/src/fonts/Mukta-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Mukta medium';
+    src: url(/src/fonts/Mukta-Medium.ttf);
+}
