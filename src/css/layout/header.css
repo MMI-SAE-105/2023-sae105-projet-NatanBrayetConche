@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-icon,
+.search-icon {
+    display: flex;
+    align-items: center;
+}
+
+.menu,
+.search {
+    width: 20px;
+    height: 20px;
+}
