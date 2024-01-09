@@ -1,0 +1,55 @@
+.nomprénom {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 9px;
+}
+
+
+
+.formtxt {
+    all: unset;
+    font-family: var(--font1);
+    font-size: var(--font3);
+    color: var(--white);
+    margin-bottom: 10px;
+    flex: 1;
+    margin-right: 10px;
+    background-color: transparent;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+
+}
+
+
+.formulairecontact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.namestyle {
+    width: 100%;
+
+}
+
+.btn {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    color: var(--beige);
+    margin-top: 20px;
+    margin-bottom: 20%;
+}
+.H2title {
+    font-family: var(--font1);
+    font-size: var(--text2);
+    color: var(--white);
+    position: relative;
+    text-align: center;
+}

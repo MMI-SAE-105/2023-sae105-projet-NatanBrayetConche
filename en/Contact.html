@@ -32,36 +32,36 @@
         </nav>
     </header>
     <main x-show="!menuIsOpen">
-        <section>
-            <div class=>
-                <div class=>
-                    <h2>Contact me</h2>
+        <h2 class="H2title">Formulaire de contact</h2>
+        
+        <form class="formulairecontact" action="/submit_form" method="post">
+        
+            <div class="nomprénom">
+        
+                <div>
+                    <label for="fname"></label>
+                    <input class="formtxt namestyle " type="text" id="lname" name="lname" placeholder="Nom" required>
                 </div>
-                <div class=></div>
+                <div>
+                    <label for="email"></label>
+                    <input class="formtxt namestyle  " type="text" id="fname" name="fname" placeholder="Prenom" required><br>
+                </div>
+        
             </div>
-            <div class=>
-
-                <form class=>
-                    <div>
-                        <label for="name1">First name</label>
-                        <input type="text" name="name1" id="name1">
-                    </div>
-                    <div>
-                        <label for="name2">Name</label>
-                        <input type="text" name="name2" id="name2">
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Envoyer">
-                    </div>
-                </form>
-            </div>
-        </section>
+        
+        
+            <label for="email"></label><br>
+            <input class="formtxt " type="email" id="email" name="email" placeholder="Email" required><br>
+        
+            <label for="email"></label><br>
+            <input class="formtxt " type="text" id="fname" name="fname" placeholder="Objet" required><br>
+        
+            <label for="message"></label><br>
+            <textarea class="formtxt " id="message" name="message" rows="5" placeholder="Message" required></textarea><br>
+        
+            <button class="btn formtxt" type="submit">Envoyer</button>
+        
+        </form>
     </main>
     <footer x-show="!menuIsOpen">
         <div class="/">
@@ -69,10 +69,11 @@
                 <h2>Culture d'I am legend</h2>
                 <img src="/public/img/Line 21.png" alt="Séparation">
                 <ul>
-                    <li><a href="A propos.html">About me</a></li>
-                    <li><a href="Contact.html">contact</a></li>
-                    <li><a href="Autre projet.html">Other project</a></li>
-                    <li><a href="Glossaire.html">Glossary</a></li>
+                    <li><a href="/en/A propos.html">A propos de moi</a></li>
+                    <li><a href="/en/Contact.html">Me contacter</a></li>
+                    <li><a href="/en/Autres Projets.html">Autres Projets</a></li>
+                    <li><a href="/en/Glossaire.html">Glossaire</a></li>
+                    <li><a href="/en/Frise.html"></a>Frise</li>
                 </ul>
             </div>
 
