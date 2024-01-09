@@ -21,7 +21,7 @@
             <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
         </a>
         <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
-        <nav class="menu" x-show="menuIsOpen">
+        <nav x-show="menuIsOpen">
             <ul class="menu.ul"> 
                 <li><a href="/fr/Citation.html">La citation: "Je m'appelle Robert Neville, je suis un survivant...</a></li>
                 <li><a href="/fr/Film.html">Le film: I am Legend</a></li>
@@ -32,12 +32,12 @@
         </nav>
     </header>
     <main x-show="!menuIsOpen">
-        <section class="">
-            <div class="/">
+        <article>
+            <div>
                 <img src="/public/img/Capture d’écran 2023-10-24 à 11.10 1.png" alt="couvertur film">
             </div>
             <h2 class="margin-page">L'univer détruis d'I am legend</h2>
-            <div>
+            <div class="article-section">
                 <p class="margin-page">Dans l'univers dévasté du film 'Je suis une Légende', la réplique emblématique 'Je m’appelle Robert
                     Neville, je
                     suis
@@ -49,7 +49,7 @@
                 </a>
                 <img src="/public/img/Page d'ac 2.png" alt="accueil 2">
             </div>
-            <div> 
+            <div class="article-section" id="section-img"> 
                 <p class="margin-page">
                     Dans l'univers post-apocalyptique saisissant du film 'I Am Legend', dirigé par Francis Lawrence, les
                     vestiges d'une
@@ -60,7 +60,7 @@
                 </a>
                 <img src="/public/img/Page d'ac 3.png" alt="accueil 3">
             </div>
-            <div>
+            <div class="article-section">
                 <p class="margin-page">
                     Dans le panorama des réalisateurs de renom, Francis Lawrence émerge indiscutablement comme une
                     figure
@@ -73,7 +73,7 @@
                 </a>
                 <img src="/public/img/Page d'ac 4.png" alt="accueil 4">
             </div>
-            <div>
+            <div class="article-section">
                 <p class="margin-page">
                     Dans l'ombre terrifiante d'un monde post-apocalyptique, la musique se révèle souvent être la
                     compagne
@@ -88,7 +88,7 @@
                 </a>
                 <img src="/public/img/Page d'ac 5.png" alt="accueil 5">
             </div>
-            <div>
+            <div class="article-section">
                 <p class="margin-page">
                     Dans les méandres d'un univers post-apocalyptique, où les vampires tiennent le rôle de maîtres et où
                     la
@@ -101,7 +101,7 @@
                 </a>
                 <img src="/public/img/Page d'ac 6.png" alt="accueil 6">
             </div>
-        </section>
+        </article>
     </main>
     <footer x-show="!menuIsOpen">
         <div class="/">
