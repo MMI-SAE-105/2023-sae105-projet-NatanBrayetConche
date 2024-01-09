@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+    <link rel="stylesheet" href="/src/style.css">
+
+    <link rel="icon" href="/public/img/Logo I am legend 2.png" />
+</head>
+
+<body x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen}">
+
+    <header>
+        <a href="index.html">
+            <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
+        </a>
+        <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
+        <nav x-show="menuIsOpen">
+            <ul class="menu.ul">
+                <li><a href="/fr/Citation.html">La citation: "Je m'appelle Robert Neville, je suis un survivant...</a>
+                </li>
+                <li><a href="/fr/Film.html">Le film: I am Legend</a></li>
+                <li><a href="/fr/Réalisateur.html">Réalisateur: Francis Lawrence</a></li>
+                <li><a href="/fr/Musique.html">La musique: I an legende Soundtrack-main theme</a></li>
+                <li><a href="/fr/Livre.html">Le livre: je suis une légende</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main x-show="!menuIsOpen">
+        <section>
+            <h2>Other project</h2>
+            <div>
+                <img src="/public/" alt="">
+            </div>
+        </section>
+    </main>
+    <footer x-show="!menuIsOpen">
+        <div class="/">
+            <div class="/">
+                <h2 class="margin-page">Culture d'I am legend</h2>
+                <img src="/public/img/Line 21.png" alt="Séparation">
+                <ul>
+                    <li><a href="/en/A propos.html">A propos de moi</a></li>
+                    <li><a href="/en/Contact.html">Me contacter</a></li>
+                    <li><a href="/en/Autres Projets.html">Autres Projets</a></li>
+                    <li><a href="/en/Glossaire.html">Glossaire</a></li>
+                    <li><a href="/en/Frise.html"></a>Frise</li>
+                </ul>
+            </div>
+
+            <img src="/public/img/Line 21.png" alt="Séparation">
+
+            <div class="footer__section">
+                <h3>Me suivre</h3>
+                <img src="/public/img/instagram.png" alt="Instagram">
+                <img src="/public/img/twitter.png" alt="Twitter">
+            </div>
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="/public/img/Logo I am legend 2.png" alt="Logo I am legend">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+<img src="" alt="">

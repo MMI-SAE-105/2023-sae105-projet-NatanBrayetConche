@@ -12,7 +12,7 @@ Soyez attentifs à l'ordre d'import :
 */
 
 /* Polices de caractère */
-@import "/src/fonts/font.css";
+@import "/src/fonts/fonts.css";
 
 /* Librairies */
 @import "/src/css/vendors/normalize.css";
