@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je m'appelle Robert Neville, je suis un survivant, je vis a New York</title>
     <script defer src="https://unpkg.com/alpinejs"></script>
     <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="/src/style.css"/>
 
 
-    <link rel="stylesheet" href="/src/style.css">
-
-    <link rel="icon" href="/public/img/Logo I am legend 2.png" />
+    <link rel="icon" href="/public/img/Logo I am legend 2.png"/>
 </head>
 
 <body x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen}">
-
     <header>
-        <a href="index.html">
-            <img src="/public/img/Logo I am legend 2.png" alt="Logo i am legend">
+        <a href="/fr/index.html">
+            <img src="/public/img/Logo I am legend 2.png" alt="Logo I am legend">
         </a>
         <img src="/public/img/open-closed.png" alt="Menu" @click="menuIsOpen=!menuIsOpen">
+
         <nav x-show="menuIsOpen">
             <ul class="menu.ul"> 
                 <li><a href="/fr/Citation.html">La citation: "Je m'appelle Robert Neville, je suis un survivant...</a></li>
