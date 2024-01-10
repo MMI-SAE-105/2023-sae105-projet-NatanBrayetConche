@@ -1,0 +1,91 @@
+.frise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.frise__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.imgfrise {
+    position: absolute;
+    left: 40%;
+    margin-top: 50px;
+}
+
+.lignegauche {
+
+    position: relative;
+    left: -22px;
+    margin-top: 40px;
+}
+
+.lignedroite {
+    position: relative;
+    right: -21px;
+
+}
+
+.imggauche {
+    margin-left: -200px;
+    margin-top: -60px;
+
+}
+
+.imgdroite {
+    margin-top: -60px;
+    margin-left: 200px;
+}
+
+.textgauche {
+    position: relative;
+    left: -100px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.textgauche2 {
+    position: relative;
+    left: -100px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.textgauche3 {
+    position: relative;
+    left: -100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textdroite{
+    position: relative;
+    right: -100px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+}
+
+.textdroite2 {
+    position: relative;
+    right: -100px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.textdroite3 {
+    position: relative;
+    right: -100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.flèche {
+    margin-top: -80px;
+}
